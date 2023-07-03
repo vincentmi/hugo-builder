@@ -1,0 +1,4 @@
+#/bin/sh
+cd /app
+hugo -c content -d public -v  --cacheDir /app/.hugo_cache
+pagefind  --source public

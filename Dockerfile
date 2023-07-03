@@ -6,4 +6,7 @@ VOLUME [ "/app" ]
 
 EXPOSE  1313
 
-WORKDIR /appdocker
+
+WORKDIR /app
+
+
