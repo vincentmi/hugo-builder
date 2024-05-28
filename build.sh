@@ -1,3 +1,3 @@
 #/bin/sh
 
-docker build -t vincentmi/hugo-builder .
+docker build --platform linux/amd64 -t vincentmi/hugo-builder .
